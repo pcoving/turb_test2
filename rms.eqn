@@ -1,0 +1,14 @@
+#!MC 1300
+# Created by Tecplot 360 build 13.3.0.21255
+$!ALTERDATA 
+  EQUATION = '{XOD} = 52.0 + {X}/0.0127'
+$!ALTERDATA 
+  EQUATION = '{U} = 1.13'
+$!ALTERDATA 
+  EQUATION = '{TU_EXP} = 0.8*{XOD}**(-5.0/7.0)'
+$!ALTERDATA 
+  EQUATION = '{TV_EXP} = 0.89*{TU_EXP}'
+$!ALTERDATA 
+  EQUATION = '{TU} = {U_RMS_ZAVG-X}/{U}'
+$!ALTERDATA 
+  EQUATION = '{TV} = {U_RMS_ZAVG-Y}/{U}'
