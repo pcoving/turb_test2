@@ -142,7 +142,7 @@ private:
     Tu[0] = 0.80*pow(xod,-5.0/7.0);
     Tu[1] = 0.89*Tu[0];
     Tu[2] = 0.89*Tu[0];
-    Tu[0] += 0.075;  // fudge factor!
+    Tu[0] += 0.055;  // fudge factor!
     Tu[1] += 0.025;  // fudge factor!
     Tu[2] += 0.025;  // fudge factor!
     
